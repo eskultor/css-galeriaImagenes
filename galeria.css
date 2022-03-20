@@ -1,0 +1,39 @@
+body
+{
+	background-color: black;
+	font-family: monospace;
+}
+.titulo
+{
+	text-align: center;
+	font-size: 50px;
+	text-shadow: -2px 1px 2px whitesmoke;
+	text-transform: uppercase;
+	color: red;
+}
+.container
+{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.galeria
+{
+	width: 300px;
+	height: 350px;
+	margin-bottom: 20px;
+	border: 3px groove red;
+	object-fit: cover;
+	filter: brightness(70%);
+}
+.galeria:hover
+{
+	cursor: pointer;
+	filter: brightness(100%);
+}
+
+
